@@ -6,3 +6,7 @@
 2. npm install
 3. bower install
 4. gulp serve
+
+## Testing
+
+For testing you can run `karma start` in your shell in your repo root folder
