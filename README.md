@@ -1,2 +1,8 @@
-# angularjs-starter-kit
-Small App Boilerplate using AngularJS, SASS and Gulp to get started quickly
+# Small AngularJS App Boilerplate
+
+## Installation
+
+1. npm install -g gulp bower karma karma-chrome-launcher karma-firefox-launcher karma-jasmine karma-phantomjs-launcher karma-safari-launcher
+2. npm install
+3. bower install
+4. gulp serve
