@@ -182,7 +182,7 @@ gulp.task('copyAssets', function ()
 
 gulp.task('copyRootFiles', function ()
 {
-	gulp.src(dirs.app + '*.html')
+	gulp.src([dirs.app + '*.html', dirs.app + '*.json'])
 		.pipe(gulp.dest(outputDir));
 });
 
