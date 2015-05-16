@@ -98,6 +98,7 @@ gulp.task('appScripts', function ()
 	var runningTask = gulp.src([dirs.frontendApp + '**/*.js', '!' + dirs.frontendApp + 'tests/**/*'])
 		.pipe(order([
 			'init.js',
+			'main.js',
 			'**/*_module.js'
 		], {base: dirs.frontendApp}))
 		.pipe(plumber(function (err)
